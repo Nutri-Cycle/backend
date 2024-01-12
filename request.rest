@@ -1,0 +1,33 @@
+POST http://localhost:8000/register
+Content-Type: application/json
+
+{
+  "username": "awwiqwal",
+  "email": "awwiqwal@gmail.com",
+  "password": "1234567"
+}
+
+###
+POST http://localhost:8000/login
+Content-Type: application/json
+
+{
+  "email": "awwiqwal@gmail.com",
+  "password": "1234567"
+}
+
+###
+POST http://localhost:8000/order
+Content-Type: application/json
+
+{
+  "user_id": 1,
+  "restaurant_id": 1,
+  "menu_ids": [4],
+  "status_id": 1,
+  "payment_id": 1,
+  "delivery_id": 1,
+  "total": 10000
+}
+
+

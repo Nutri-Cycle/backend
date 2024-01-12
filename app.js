@@ -1,12 +1,12 @@
 const express = require('express');
+const app = express();
+
 const bodyParser = require('body-parser');
 const routes = require('./src/routes/route');
-const app = express();
-const database = require('./conf/dbConnection');
-
 
 app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: true }));
+app.use(routes);
 
 app.use((err, req, res, next) => {
   err.statusCode = err.statusCode || 500;
