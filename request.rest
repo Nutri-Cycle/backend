@@ -35,10 +35,6 @@ Content-Type: application/json
 }
 
 ###
-GET http://localhost:8000/detailSufferers/1
-Content-Type: application/json
-
-###
 POST http://localhost:8000/posyanduDetail
 Content-Type: application/json
 
@@ -46,6 +42,10 @@ Content-Type: application/json
   "latitude": -6.218425,
   "longitude": 106.992763
 }
+
+###
+GET http://localhost:8000/detailSufferers/1
+Content-Type: application/json
 
 ###
 POST http://localhost:8000/order
