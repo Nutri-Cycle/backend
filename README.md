@@ -1,5 +1,11 @@
 # The Backbone of Nutricycle App.
 
+NutriCycle, designed to provide a platform to buy and sell leftover food with good quality and provide a platform to donate basic food items to stunted people in need, with an easy-to-use platform to optimize Food Loss and Waste and help in reducing stunting rates in Indonesia to ensure the welfare of the Indonesian people.
+
+## Authors
+
+- [@Arrizal](https://www.github.com/ArrizalBintangR)
+
 
 ## API Reference
 
