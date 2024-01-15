@@ -17,17 +17,52 @@ Content-Type: application/json
 }
 
 ###
+POST http://localhost:8000/nearestFood
+Content-Type: application/json
+
+{
+  "latitude": -6.200000,
+  "longitude": 106.816666
+}
+
+###
+POST http://localhost:8000/nearestRestaurant
+Content-Type: application/json
+
+{
+  "latitude": -6.2220799,
+  "longitude": 106.9971085
+}
+
+###
+GET http://localhost:8000/detailSufferers/1
+Content-Type: application/json
+
+###
+POST http://localhost:8000/posyanduDetail
+Content-Type: application/json
+
+{
+  "latitude": -6.218425,
+  "longitude": 106.992763
+}
+
+###
 POST http://localhost:8000/order
 Content-Type: application/json
 
 {
   "user_id": 1,
   "restaurant_id": 1,
-  "menu_ids": [4],
+  "menu_ids": [3,4],
   "status_id": 1,
   "payment_id": 1,
   "delivery_id": 1,
   "total": 10000
 }
+
+###
+GET http://localhost:8000/api/search?query=cara%20pencegahan%20stunting
+Content-Type: application/json
 
 
