@@ -7,7 +7,7 @@ NutriCycle, designed to provide a platform to buy and sell leftover food with go
 - [@Arrizal](https://www.github.com/ArrizalBintangR)
 
 ## How to run
-1. `[git clone](https://github.com/Nutri-Cycle/backend.git)` in terminal
+1. `git clone https://github.com/Nutri-Cycle/backend.git` in terminal
 2. `cd backend`
 3. `npm install`
 4. `npm run production`
